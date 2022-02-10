@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 section{
     position: relative;
     top:0;
@@ -15,4 +19,36 @@ section{
 
 #purple{
     background-color: #4343f9;
+}
+
+.circle-btn{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 200px;
+
+    background-color: #242d38;
+    border: solid 6px;
+    border-radius: 50%;
+
+
+    
+}
+
+.button1{
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 99;
+
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #efd592;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    font-weight: 300;
 }
