@@ -52,7 +52,7 @@ section{
 .rectangle-btn{
     position: absolute;
     bottom:40px;
-    right:40px;
+    right:0;
 
     width: 200px;
     height: 60px;
@@ -60,6 +60,7 @@ section{
 
 .btn2{
     border: solid 6px #242d38;
+    right:40px;
 }
 
 .inner-btn2{
@@ -76,4 +77,35 @@ section{
     font-size: 21px;
     letter-spacing: 0.2em;
     font-weight: 700;
+}
+
+.button-div{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    display: inline;
+
+    width: 200px;
+    height: 60px;
+
+    background-color: aliceblue;
+}
+
+.outer-btn3{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-btn3{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
 }
