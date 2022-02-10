@@ -31,11 +31,7 @@ section{
     height: 200px;
 
     background-color: #242d38;
-    border: solid 6px;
     border-radius: 50%;
-
-
-    
 }
 
 .button1{
@@ -51,4 +47,33 @@ section{
     font-size: 24px;
     letter-spacing: 0.2em;
     font-weight: 300;
+}
+
+.rectangle-btn{
+    position: absolute;
+    bottom:40px;
+    right:40px;
+
+    width: 200px;
+    height: 60px;
+}
+
+.btn2{
+    border: solid 6px #242d38;
+}
+
+.inner-btn2{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    height: 60px;
+
+    text-transform: uppercase;
+    z-index: 99;
+
+    color: #242d38;
+    font-size: 21px;
+    letter-spacing: 0.2em;
+    font-weight: 700;
 }
