@@ -50,7 +50,7 @@ section{
     height: 60px;
 }
 
-.btn2{
+.button1{
     border: solid 6px #242d38;
     right:40px;
 
@@ -65,7 +65,7 @@ section{
     font-weight: 700;
 }
 
-.outer-btn3{
+.button3{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
